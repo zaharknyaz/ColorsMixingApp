@@ -46,6 +46,10 @@ class ViewController: UIViewController {
         greenLabel.text = "Green " + greenSlider.value.formatted()
         blueLabel.text = "Blue " + blueSlider.value.formatted()
         
+        redSlider.minimumTrackTintColor = .red
+        greenSlider.minimumTrackTintColor = .green
+        blueSlider.minimumTrackTintColor = .blue
+        
         colorsView.backgroundColor = UIColor(red: CGFloat(redSlider.value/1), green: CGFloat(greenSlider.value/1), blue: CGFloat(blueSlider.value/1), alpha: 1)
         colorsView.isHidden = false
         colorsView.layer.borderWidth = 0
