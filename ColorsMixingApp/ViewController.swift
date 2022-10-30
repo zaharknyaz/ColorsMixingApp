@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ColorsMixingApp
 //
-//  Created by user219864 on 10/30/22.
+//  Created by Zahar Knyazev on 10/30/22.
 //
 
 import UIKit
